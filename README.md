@@ -37,4 +37,4 @@ Después se abre en el navegador la dirección que muestra la terminal (normalme
 
 ## Deploy
 
-Link: 
+Link: https://react-tone-fwfx4p6er-fabricioiannis-projects.vercel.app
