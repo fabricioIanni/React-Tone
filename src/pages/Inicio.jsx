@@ -24,7 +24,7 @@ function Inicio() {
 
       <Container className="mt-5">
         <h2 className="mb-4">Explorá por categoría</h2>
-        <Row xs={1} sm={2} lg={4} className="g-4">
+        <Row xs={1} sm={2} lg={4} className="g-4"> 
           {categorias.map((cat) => (
             <Col key={cat.nombre}>
               <Card className="h-100">
