@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import { Container, Row, Col, Button, Badge } from 'react-bootstrap'
 import { Link, useParams } from 'react-router-dom'
 import productos from '../data/productos'

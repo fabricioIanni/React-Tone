@@ -1,16 +1,40 @@
-# React + Vite
+# ReactTone
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Tienda online de instrumentos musicales hecha en React para el TP1 de Construcción de Interfaces de Usuario (UNAHUR).
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Página de inicio con el logo, la descripción de la tienda y un acceso al catálogo.
+- Catálogo con 14 productos.
+- Búsqueda por nombre, filtro por categoría, ordenamiento por precio y filtro de productos con stock.
+- Detalle e informacion de cada producto.
+- Carrito con cantidades, subtotales, total y eliminación de productos.
+- Formulario de compra con validaciones propias del formulario y un mensaje de confirmación.
 
-## React Compiler
+## Tecnologías
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- React Router DOM
+- React Bootstrap y Bootstrap
 
-## Expanding the Oxlint configuration
+## Cómo instalar y correr el proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Hace falta tener Node.js instalado.
+
+```bash
+git clone https://github.com/fabricioIanni/React-Tone.git
+cd React-Tone
+npm install
+npm run dev
+```
+
+Después se abre en el navegador la dirección que muestra la terminal (normalmente `http://localhost:5173`).
+
+## Integrante
+
+- Fabricio Ianni Lucio - DNI 45.429.761 GRUPO 11
+
+## Deploy
+
+Link: 
